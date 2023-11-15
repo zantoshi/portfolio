@@ -8,7 +8,11 @@ const Items = ({ items }) => {
       <div className=" my-6 w-auto">
         {items.data.map((item) => (
           <div className="border-2 divide-y divide-slate-700">
-            <Link className="hover:text-lime-400 my-4 text-base" href={item[1]}>
+            <Link
+              key={item[0]}
+              className="hover:text-lime-400 my-4 text-base"
+              href={item[1]}
+            >
               {item[0]}
             </Link>
           </div>

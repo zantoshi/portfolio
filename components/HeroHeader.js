@@ -18,28 +18,28 @@ const PageHeader = ({ title, description }) => {
           <h1 className="text-4xl">{title}</h1>
           <div>
             <p className="text-lg mb-4">{description}</p>
-            <div className="flex flex-row justify-center">
+            <div className="flex flex-row justify-center gap-2">
               <a
                 href="mailto:santosdhernandez@gmail.com"
-                className="btn btn-outline-secondary btn-lg px-4"
+                className="p-2 border rounded"
               >
                 <MailPlus />
               </a>
               <a
                 href="https://twitter.com/5antoshernandez"
-                className="btn btn-outline-secondary btn-lg px-4"
+                className="p-2 border rounded"
               >
                 <Twitter />
               </a>
               <a
                 href="https://linkedin.com/in/santoslol"
-                className="btn btn-outline-secondary btn-lg px-4"
+                className="p-2 border rounded"
               >
                 <Linkedin />
               </a>
               <a
                 href="https://github.com/zantoshi"
-                className="btn btn-outline-secondary btn-lg px-4"
+                className="p-2 border rounded"
               >
                 <Github />
               </a>

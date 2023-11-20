@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 
 export async function GET(request) {
   try {
-    const id = "d94e7893-5a1a-4ef9-b2c2-e549fc6b1e0e";
+    const id = "5ab6a5ba-b505-4eb0-83fe-2780073ac926";
     const APIKEY = process.env.ZBD_API_KEY;
 
     const response = await fetch(
